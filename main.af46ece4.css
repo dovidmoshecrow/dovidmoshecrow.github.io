@@ -1,0 +1,48 @@
+body{
+    background: #264E36;
+}
+
+#num{
+    width: 90%;
+    height: 30px;
+    margin-left:4%;
+    background: black;
+    border:black;
+    color: #FE840E;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+}
+
+#canv{
+    flex: 1;
+    background: white;
+}
+
+#main{
+  display: flex;
+}
+
+#side{
+    width: auto;
+    height: auto;
+    background:#FE840E;
+    flex: 1;
+}
+
+#save{
+    flex: 2;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    margin-top: 185%;
+    margin-left: 35%;
+    background: black;
+    color:#FE840E;
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=/main.af46ece4.css.map */

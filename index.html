@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="stylesheet" href="/main.27fe423d.css"><title>Document </title></head><body><div id="main"> <canvas id="canv"></canvas> <script>
+       
+    </script> <div id="side"> <input type="text" name="" id="num"> <button id="save" onclick="
+    const canvas = document.querySelector('#canv');
+    const dataURL = canvas.toDataURL('image/png', 1.0);
+    downloadImage(dataURL, 'neural-network.png');
+    function downloadImage(data, filename = 'untitled.png') {
+       const a = document.createElement('a');
+       a.href = data;
+       a.download = filename;
+       document.body.appendChild(a);
+       a.click();
+   }">Save</button> </div> <script src="/neural-network-diagram.a4893b07.js"></script> </div> </body></html>
